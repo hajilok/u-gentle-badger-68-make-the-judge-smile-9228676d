@@ -1,9 +1,9 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-// Final entry selected via blind Swiss tournament and dual-panel Round-Robin shootout (20-0 calls).
+// Round 2 entry selected via 8-candidate Swiss tournament and dual-panel 5-way shootout vs Round 1 (#14/2632).
 const ENTRY_LINE =
-  'When I picked up my mended coat today, Mrs. Kwon tucked a still-warm five-dollar bill into my palm and said, "Fell out of your lining. Looked tired, so I gave it the iron."';
+  'At noon today, our waitress Brenda heard my dad\'s spoon rattling against his bowl, took his soup back, and returned it in a heavy mug: "Saw a crack in the rim. Mug stays hotter anyway."';
 
 function validateEntry(line: string): string {
   if (line.includes('\n') || line.includes('\r')) {
